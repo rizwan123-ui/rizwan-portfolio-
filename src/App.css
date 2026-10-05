@@ -12,8 +12,8 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #0b1120;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+ background: #09090b;
   color: #ffffff;
 }
 
@@ -33,7 +33,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0b1120;
+  background: rgba(9, 9, 11, 0.88);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .logo {
@@ -71,12 +73,12 @@ body {
   align-items: flex-start;
 
   background:
-    radial-gradient(
-      circle at 80% 20%,
-      rgba(37, 99, 235, 0.18),
-      transparent 30%
-    ),
-    #0b1120;
+  radial-gradient(
+    circle at 78% 22%,
+    rgba(59, 130, 246, 0.10),
+    transparent 32%
+  ),
+  linear-gradient(135deg, #09090b 0%, #0d0f14 55%, #111318 100%);
 }
 
 .hello {
@@ -90,12 +92,13 @@ body {
   line-height: 1.1;
   margin-bottom: 15px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: -1.5px;
 }
 
 .hero h2 {
   font-size: 30px;
-  color: #94a3b8;
+color: #a1a1aa;
   margin-bottom: 25px;
 }
 
